@@ -1,0 +1,135 @@
+/* navigation */
+
+.sidebar{
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    position: fixed;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.element{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+/* applied to all pages */
+
+body{
+    background-color: rgb(211, 255, 211);
+}
+
+a {
+    text-decoration: none;
+    color: #5159fa;
+}
+
+/* login page */
+
+.login{
+    background-color: #90e690;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shift_right{
+    margin-left: 8%;
+}
+
+ul{
+    list-style:none;
+    margin-left: 10%;
+}
+
+li{
+    margin-top: 8%;
+    margin-right: 5%;
+}
+
+#button{
+    float: right;
+    margin-right: 35%;
+    margin-top: 5%;
+    width: 25%;
+}
+
+.move{
+    margin-top: 40%;
+    text-align: center;
+}
+
+/* logout page */
+
+.logout{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.center{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* edit.php */
+
+.flex{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.push_left{
+    margin-left: 55%;
+    margin-top: 10%
+}
+
+form button{
+    margin-top: 4%;
+    width: 36%;
+}
+
+#upload_image{
+    display: flex;
+    flex-direction: column;
+}
+
+.shift_down{
+    margin-top: 4%;
+}
+
+.red{
+    color: red;
+}
+
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* index.php */
+
+.gallery{
+    margin-left: 55%;
+    margin-top: 13%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bullet_point{
+    list-style:none;
+    margin-top: 1%;
+}
+
+.move_down{
+    margin-top: 10%;
+}
